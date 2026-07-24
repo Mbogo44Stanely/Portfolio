@@ -23,3 +23,8 @@ def my_blank_function():
 
 if __name__ == '__main__':
     main()
+
+
+    # git config --global user.name "Your Name"
+    # git config --global user.email you@example.com
+
