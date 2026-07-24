@@ -18,13 +18,7 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-def my_blank_function():
-    pass
 
 if __name__ == '__main__':
     main()
-
-
-    # git config --global user.name "Your Name"
-    # git config --global user.email you@example.com
 

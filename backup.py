@@ -26,6 +26,4 @@ def restore():
         except Exception as e:
             print("ERROR", val, e)
 
-def backup_cards():
-    # Temporarily bypassed for local development safety
-    pass
+
