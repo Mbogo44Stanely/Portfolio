@@ -2,7 +2,6 @@ from timeline.models import Card
 import datetime
 import json
 
-# Backup cards
 def backup_cards():
     card_list = Card.objects.all()
     time = str(datetime.datetime.today())

@@ -19,6 +19,5 @@ class Card(models.Model):
 
     def __str__(self) -> str:
         return f"{self.heading}.. on {self.date}"
-
-    def line():
-        pass
+    
+    

@@ -18,7 +18,6 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-# Calling the app
 
 if __name__ == '__main__':
     main()
