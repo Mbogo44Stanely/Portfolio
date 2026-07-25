@@ -56,3 +56,5 @@ class BaseTestView(BaseTest):
     
     def test_view_response(self):
         self.assertTrue(self.response.status_code==200)
+    def test():
+        pass

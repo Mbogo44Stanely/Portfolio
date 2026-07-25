@@ -6,3 +6,5 @@ class LandingpageConfig(AppConfig):
 
 class ProjectConfig(AppConfig):
     name = 'Project'
+    
+    pass

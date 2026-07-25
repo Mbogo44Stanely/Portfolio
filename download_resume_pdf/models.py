@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here for the download resume pdf functionality.
 class ResumeLink(models.Model):
     url = models.URLField()
     name = models.CharField(max_length=255, blank=False, null=True)

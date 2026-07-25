@@ -1,4 +1,4 @@
-# This helps in deployment of the project
+# This helps in deployment of the project (Production level)
 release: python manage.py makemigrations
 release: python manage.py migrate
 web: gunicorn portfolio.wsgi --log-file -

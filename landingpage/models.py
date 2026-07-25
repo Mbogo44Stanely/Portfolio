@@ -14,3 +14,6 @@ class Project(models.Model):
     
     def __str__(self) -> str:
         return f"{self.heading}.. start: {self.start_date}, end:{self.end_date}"
+
+    def line():
+        pass
